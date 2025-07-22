@@ -1,17 +1,24 @@
 {
-  "name": "历小包",
+  "name": "wechat-miniprogram-backend",
   "version": "1.0.0",
-  "description": "历小包应用",
-  "main": "main.js",
+  "description": "微信小程序后端服务",
+  "main": "app.js",
   "scripts": {
-    "dev:h5": "echo '请在HBuilderX中运行项目'",
-    "build:h5": "echo '请在HBuilderX中构建项目'",
-    "dev:mp-weixin": "echo '请在HBuilderX中运行微信小程序'",
-    "build:mp-weixin": "echo '请在HBuilderX中构建微信小程序'"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "@alicloud/pop-core": "^1.7.15",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mysql2": "^3.5.2",
+    "uuid": "^9.0.0"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
