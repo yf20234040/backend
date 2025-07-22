@@ -1,0 +1,107 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "历小包登录"
+			}
+		},
+		{
+			"path": "pages/login/start",
+			"style": {
+				"navigationBarTitleText": "历小包研学"
+			}
+		},
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "历小包登录"
+		// 	}
+		// },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "历小包",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/issue-detail/issue-detail",
+			"style": {
+				"navigationBarTitleText": "洞见历史",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ProjectIntroduction/Introduction1",
+			"style": {
+				"navigationBarTitleText": "项目简介",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/issue1/issue1",
+			"style": {
+				"navigationBarTitleText": "第一期",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/issue2/issue2",
+			"style": {
+				"navigationBarTitleText": "第二期",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/issue3/issue3",
+			"style": {
+				"navigationBarTitleText": "第三期",
+				"navigationStyle": "custom"
+			}
+		},
+		// {
+		// 	"path": "pages/pictures/pictures",
+		// 	"style": {
+		// 		"navigationBarTitleText": "图片展示",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/videos/videos",
+		// 	"style": {
+		// 		"navigationBarTitleText": "视频模块",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		{
+			"path": "pages/index/AiTab",
+			"style": {
+				"navigationBarTitleText": "历小包智能AI助手",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/team/team",
+			"style": {
+				"navigationBarTitleText": "团队协作",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "历小包",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"uniIdRouter": {}
+}

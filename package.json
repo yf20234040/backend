@@ -1,0 +1,17 @@
+{
+  "name": "历小包",
+  "version": "1.0.0",
+  "description": "历小包应用",
+  "main": "main.js",
+  "scripts": {
+    "dev:h5": "echo '请在HBuilderX中运行项目'",
+    "build:h5": "echo '请在HBuilderX中构建项目'",
+    "dev:mp-weixin": "echo '请在HBuilderX中运行微信小程序'",
+    "build:mp-weixin": "echo '请在HBuilderX中构建微信小程序'"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
